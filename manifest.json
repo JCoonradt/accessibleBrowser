@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "AI Accessibility Modifier",
+  "version": "1.0",
+  "description": "Modify website accessibility dynamically using AI and Mistral CodeGen.",
+  "permissions": ["activeTab", "scripting", "http://localhost:5000/*"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Accessibility AI"
+  }
+}
